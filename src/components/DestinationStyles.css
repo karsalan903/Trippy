@@ -1,0 +1,86 @@
+.destination {
+    margin: 4rem 6rem;
+    text-align: center;
+}
+
+.destination .paragraphGeneral {
+    margin-bottom: 15%;
+}
+
+.destination h1 {
+    font-size: 3rem;
+}
+
+.firstDescription {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.firstDescriptionReverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.descriptionText {
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.descriptionText h2 {
+    padding-bottom: 1rem;
+}
+
+.vid{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.image img{
+    width: 49%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+    transition: 0.5s ease-in-out;
+}*/
+
+.vid video{
+    width: 49%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+    transition: 0.5s ease-in-out;
+}
+
+.vid video:hover{
+    transform: scale(1.05);
+    height: 700px;
+}
+
+
+/*.image img:hover{
+    transform: scale(1.05);
+}*/
+
+.vid video:nth-child(2) {
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+.vid .vidClass2{
+    margin-top: 60px;
+}
+
+.vid .vidClass1{
+    margin-top: -60px;
+}
