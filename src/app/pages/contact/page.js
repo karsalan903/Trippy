@@ -1,4 +1,5 @@
 import { PageWrapper } from "@/app/page-wrapper"
+import ContactForm from "@/components/ContactForm"
 import PageProps from "@/components/PageProps"
 
 const Contact = () => {
@@ -9,6 +10,7 @@ const Contact = () => {
         className="pageProps"
         pageVideo="/pexels-roman-odintsov-5658615 (2160p).mp4"
         title="Contact"/>
+        <ContactForm/>
       </PageWrapper>
     </>
   )

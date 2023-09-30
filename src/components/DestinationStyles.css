@@ -84,3 +84,31 @@
 .vid .vidClass1{
     margin-top: -60px;
 }
+
+@media screen and (max-width: 850px) {
+    .destination {
+        margin: 4rem 2rem;
+    }
+
+    .firstDescription {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .firstDescriptionReverse {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4.5rem;
+    }
+
+    .descriptionText {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .vid {
+        width: 100%;
+        margin: 1.8rem;
+    }
+}
